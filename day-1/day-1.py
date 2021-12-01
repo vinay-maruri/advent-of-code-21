@@ -23,5 +23,5 @@ while pointer_fast < lines.size:
 print(counter)
 #result for my input is 1184.
 
-#runtime: O(n) because the code requires linear time to scan all inputs once. We pass through array once to compute result.
+#runtime: O(n) because the code requires linear time to scan all inputs twice. Once to read in the text file input, and once to pass through the inputs to compute result.
 #space: O(1) because the code requires constant space to run, only using a static amount of memory and no additional data structures.
