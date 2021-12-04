@@ -33,3 +33,6 @@ for line in lines:
 print(horizontal * depth)
 
 #part 2 result is 1963088820
+
+#runtime: O(n) because we're scanning the inputs twice to solve each part. Once to read in the inputs and build the array, and then once to compute the solution.
+#space: O(n) because we build an array of n elements, where n is the number of string inputs.
