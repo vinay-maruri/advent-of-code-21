@@ -9,7 +9,7 @@ lines = [c for c in [line.strip().split('->') for line in f]]
 lines = [[c[0].split(','), c[1].split(',')] for c in lines]
 
 #count points tracks points on the grid and counts the number of times they've been visited by a distinct line
-#using a dictionary, where the key is a point, and the value is the number of times it's been visited.
+#using a dictionary, where the key is a visited point, and the value is the number of times it's been visited.
 #input: lines is a list of line endpoints, diagonal determines whether or not to include diagonal lines.
 #returns: number of points that have been visited twice or more.
 def count_points(lines, diagonal = False):
